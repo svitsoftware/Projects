@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Tree.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Http.h">
+      <Filter>Background\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlParser.h">
+      <Filter>Background\Html\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlRenderer.h">
+      <Filter>Background\Html\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamParser.h">
+      <Filter>Background\Html\Parser\ParamParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Params.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="CssParser.h">
+      <Filter>Background\Css</Filter>
+    </ClInclude>
+    <ClInclude Include="CssTree.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Visual\Low-level</Filter>
+    </ClInclude>
+    <ClInclude Include="SWidgets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Visual">
+      <UniqueIdentifier>{b1a8382a-532e-4760-83c7-e24067f86159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background">
+      <UniqueIdentifier>{6ff070de-df4b-4da6-982f-5a8bb922f236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Html">
+      <UniqueIdentifier>{783059c3-ca30-422d-9e41-fc43c1098f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Http">
+      <UniqueIdentifier>{fae09ca4-03aa-4eae-bd8b-826c1623f1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Html\Parser">
+      <UniqueIdentifier>{855b3102-a879-439e-aa91-cef704875290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Html\Renderer">
+      <UniqueIdentifier>{2de9c1a1-cd95-4eb8-82c3-738c2c20016f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Html\Parser\ParamParser">
+      <UniqueIdentifier>{13ec83b2-7405-4aa5-af15-baedf40fe48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Css">
+      <UniqueIdentifier>{b729a550-fe28-4348-abba-5a0bd8f7c2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{8422e53a-7390-4674-95b6-acaddfec65ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visual\Low-level">
+      <UniqueIdentifier>{40af8b0c-9978-4ed0-897b-39e01a081f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visual\High-level">
+      <UniqueIdentifier>{e39eec07-7f7c-47ff-ba63-45a46d3b14f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Http.cpp">
+      <Filter>Background\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlParser.cpp">
+      <Filter>Background\Html\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlRenderer.cpp">
+      <Filter>Background\Html\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamParser.cpp">
+      <Filter>Background\Html\Parser\ParamParser</Filter>
+    </ClCompile>
+    <ClCompile Include="CssParser.cpp">
+      <Filter>Background\Css</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Visual\Low-level</Filter>
+    </ClCompile>
+    <ClCompile Include="SWidgets.cpp" />
+  </ItemGroup>
+</Project>
